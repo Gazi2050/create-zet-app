@@ -1,0 +1,12 @@
+{
+    "name": "my-zet-app",
+    "version": "1.0.0",
+    "description": "A new zet.js application",
+    "main": "src/index.js",
+    "scripts": {
+        "start": "zet start",
+        "build": "zet build",
+        "dev": "zet dev"
+    },
+    "dependencies": {}
+}
