@@ -33,10 +33,10 @@ program
             console.log(chalk.green(`Project ${projectName} created successfully at ${projectPath}`));
 
             // Install zet-js
-            console.log(chalk.blue('Installing zet-js...'));
-            exec('npm install zet-js', (error, stdout, stderr) => {
+            console.log(chalk.blue('Installing zet.js...'));
+            exec('npm install zet.js', (error, stdout, stderr) => {
                 if (error) {
-                    console.error(chalk.red(`Error installing zet-js: ${error.message}`));
+                    console.error(chalk.red(`Error installing zet.js: ${error.message}`));
                     return;
                 }
                 if (stderr) {
@@ -44,7 +44,7 @@ program
                     return;
                 }
                 console.log(chalk.green(stdout));
-                console.log(chalk.green('zet-js installed successfully.'));
+                console.log(chalk.green('zet.js installed successfully.'));
 
                 // Run development server
                 console.log(chalk.blue('Starting development server...'));
