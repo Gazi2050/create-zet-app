@@ -2,6 +2,8 @@
   "name": "create-zet-app",
   "version": "0.0.1",
   "description": "CLI tool for quickly creating zet.js applications.",
+  "homepage": "https://github.com/Gazi2050/create-zet-app",
+  "repository": "https://github.com/Gazi2050/create-zet-app",
   "main": "index.js",
   "type": "module",
   "bin": {
