@@ -1,24 +1,21 @@
 {
   "name": "create-zet-app",
   "version": "0.0.1",
-  "description": "CLI tool to create a new zet.js application",
-  "homepage": "https://github.com/Gazi2050/zet-cli",
-  "repository": "https://github.com/Gazi2050/zet-cli",
-  "main": "src/index.js",
+  "description": "CLI tool for quickly creating zet.js applications.",
+  "main": "index.js",
+  "type": "module",
   "bin": {
-    "create-zet-app": "bin/create-zet-app.js"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create-zet-app": "index.js"
   },
   "keywords": [
+    "zet.js",
     "cli"
   ],
   "author": "gazi2050",
   "license": "MIT",
   "dependencies": {
-    "axios": "^1.7.2",
-    "commander": "^12.1.0",
-    "fs-extra": "^11.2.0"
+    "chalk": "^5.3.0",
+    "fs-extra": "^11.2.0",
+    "ora": "^8.0.1"
   }
 }
