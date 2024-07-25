@@ -22,11 +22,12 @@ const App = () => {
                         <a
                             href="https://github.com/Gazi2050/zet.js"
                             target="_blank"
-                            className=" bg-purple-900 border-2 border-purple-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-500 hover:bg-black hover:border-purple-800 transform hover:scale-105"
+                            className="bg-purple-900 bg-opacity-60 border-2 border-purple-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition-all duration-500 hover:bg-black hover:border-purple-900 transform hover:scale-105"
                             style={{ textDecoration: 'none' }}
                         >
                             View on GitHub
                         </a>
+
                     </div>
                 </div>
             </div>
