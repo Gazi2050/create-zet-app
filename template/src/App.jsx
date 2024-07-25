@@ -13,16 +13,16 @@ const App = () => {
                         />
                     </div>
                     <div className='md:w-1/2 text-center md:text-left'>
-                        <h1 className='text-purple-800 text-4xl md:text-6xl font-bold font-mono mb-4'>
+                        <h1 className='text-purple-600 text-4xl md:text-6xl font-bold font-mono mb-4'>
                             zet.js
                         </h1>
-                        <p className='text-purple-800 text-lg font-medium md:text-xl mb-6'>
+                        <p className='text-purple-600 text-lg font-medium md:text-xl mb-6'>
                             A minimalistic JavaScript framework with React
                         </p>
                         <a
                             href="https://github.com/Gazi2050/zet.js"
                             target="_blank"
-                            className="inline-block bg-purple-600 border-2 border-purple-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-opacity-50 transition duration-500 hover:bg-black hover:border-purple-800 transform hover:scale-105"
+                            className=" bg-purple-900 border-2 border-purple-800 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-500 hover:bg-black hover:border-purple-800 transform hover:scale-105"
                             style={{ textDecoration: 'none' }}
                         >
                             View on GitHub
